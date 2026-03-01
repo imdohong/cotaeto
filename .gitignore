@@ -1,0 +1,18 @@
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code 설정 및 로컬 환경
+.vscode/
+.idea/
+.DS_Store
+
+# 가상환경 (사용 시)
+venv/
+.venv/
+env/
+
+# 테스트용 입력 파일 (개인적인 메모나 입력값 저장용)
+input.txt
+output.txt
