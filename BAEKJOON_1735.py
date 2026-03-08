@@ -1,14 +1,12 @@
 a, b = map(int, input().split())
 c, d = map(int, input().split())
 
-while(b%a == 0 and d%c == 0):
-    if b%a !=0 :
-        a = a // a
-        b = b // a
-    if d%c !=0 :
-        c = c//c
-        d = d//c
+numerator = a*d + c*b
+denominator = b*d
 
-e = b * d
-f = a * d + c * b
-print(e, f)
+x, y = numerator, denominator
+while y != 0:
+    x, y = y, x % y
+g = x
+
+print(numerator // g, denominator // g)
