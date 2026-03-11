@@ -6,6 +6,6 @@ for i in range(0, 28):
 
     stu[num-1]=num
 
-
-if stu[num]==0:
-    print(num+1)
+for j in range(0, 30):
+    if stu[j]==0:
+        print(j+1)

@@ -3,7 +3,7 @@ for i in range(0, 9):
     num=int(input())
     a.append(num)
 
-print(a(max))
+print(max(a))
 
 max=max(a)
 
