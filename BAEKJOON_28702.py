@@ -4,7 +4,7 @@ c = input()
 
 if a.isdigit() : 
     n = int(a)+3
-elif a.isdigit() : 
+elif b.isdigit() : 
     n = int(b)+2
 else : 
     n = int(c)+1
