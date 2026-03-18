@@ -1,3 +1,7 @@
+import sys
+sys.setrecursionlimit(10**6)
+input = sys.stdin.readline
+
 n = int(input())
 inorder = list(map(int, input().split()))
 postorder = list(map(int, input().split()))
