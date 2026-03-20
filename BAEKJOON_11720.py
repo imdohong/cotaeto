@@ -4,3 +4,5 @@ num=input("")
 
 for i in range(0, n):
     total+=int(num[i])
+
+print(total)
