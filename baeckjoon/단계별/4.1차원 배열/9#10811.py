@@ -8,6 +8,8 @@ for k in range(0, m):
     basket[i-1:j] = basket[i-1:j][::-1]
 
 print(*basket)
+
+# 다시 풀어 볼 문제
     
 
 
