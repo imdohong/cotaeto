@@ -1,19 +1,17 @@
 import sys
 input = sys.stdin.readline
 
-word = []
 n = int(input())
 count = n
 
 for i in range(n):
-    word.append(input().rstrip())
-
-for s in word:
-    while i < len(s):
-        if (i - 1 > 0 and i + 1 < len(s)) and (s[i -1] != s[i] and s[i] != s[i+1]):
-            count -= 1
-            continue
+    word = input().rstrip()
+    for j in range(len(word)-1):
+        if word[i] != word[i+1]:
+            if word[i] in word[i+1:]:
+                count -= 1
+                break
 
 print(count)
 
-# 아직 못 풀었음
+# 런타임 에러. 다시 풀어 볼 문제. 조건 이해 정확히 할 것.
