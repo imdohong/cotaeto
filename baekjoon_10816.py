@@ -14,6 +14,7 @@ def start_index(card_list,target):
         elif card_list[mid]<target:
             low=mid+1
         # 왼쪽에 같은 값이 있는지 확인
+        # 있으면 high 인덱스를 1씩 줄이기
         else:
             s_index=mid
             high=mid-1
@@ -24,7 +25,7 @@ def end_index(s_index, card_list, target):
     low=s_index
     high=len(card_list)-1
     e_index=0
-    
+
     if s_index==-1:
         return -2
     
@@ -35,6 +36,7 @@ def end_index(s_index, card_list, target):
         elif card_list[mid]<target:
             low=mid+1
         # 오른쪽에 같은 값이 있는지 확인
+        # 있으면 low 인덱스를 1씩 늘리기
         else:
             e_index=mid
             low=mid+1
