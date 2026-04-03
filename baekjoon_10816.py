@@ -1,5 +1,5 @@
 import sys
-input = sys.stdin.readline
+input=sys.stdin.readline
 
 def start_index(card_list,target):
     low=0
