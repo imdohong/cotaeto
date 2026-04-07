@@ -11,5 +11,6 @@ for i in range(15):
         if i < len(word_list[j]):
             print(word_list[j][i], end='')
 
+#다시 풀어 볼 문제
 
     
